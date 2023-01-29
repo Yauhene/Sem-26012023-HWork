@@ -10,13 +10,15 @@ Console.WriteLine();
 Console.Write("Введите число :");
 if(int.TryParse(Console.ReadLine(), out int a1))
 {
-    if((a1 % 2) == 0
+    if((a1 % 2) == 0)
     {
         Console.WriteLine("Это четное число");
     }
     else
     {
-        Console.WriteLine("Это четное число");
+        Console.WriteLine("Это нечетное число");
     }
 }
 
+Console.WriteLine("============================");
+Console.WriteLine();
