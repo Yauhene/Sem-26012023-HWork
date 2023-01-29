@@ -15,7 +15,7 @@ if(int.TryParse(Console.ReadLine(), out int a2))
 
 Console.Write("Введите третье число :");
 if(int.TryParse(Console.ReadLine(), out int a3))
-
+{
 int maximal = a1;
 
 if (maximal < a2) maximal = a2;
@@ -24,3 +24,4 @@ if (maximal < a3) maximal = a3;
 
 
 Console.WriteLine("Максимальное число - " + maximal);
+}
